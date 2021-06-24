@@ -30,7 +30,7 @@ h2:after{
     top:50%
 }
 p{
-    color:black;
+    color:white;
 }
 
 #cb-slideshow-text-container {
@@ -43,7 +43,7 @@ p{
 }
 .footer-link {
     margin: 20px;
-	font-size: 10px;
+	font-size: 12px;
     position: absolute;
     bottom: 0;
     left: 0;
