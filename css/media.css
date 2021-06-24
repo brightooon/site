@@ -1,5 +1,4 @@
 body{
-    right:100;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 	font-weight: 400;
 	font-size: 18px;
@@ -7,8 +6,8 @@ body{
     color:#80d8e6;
 	overflow-y: scroll;
 	overflow-x: hidden;
+    right:100;
 }
-
 h1 {
     color: yellow;
     font-size: 2rem;
