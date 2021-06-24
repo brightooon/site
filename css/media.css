@@ -3,7 +3,7 @@ body{
 	font-weight: 400;
 	font-size: 18px;
     background: #000;
-    lighting-color:rgb(137, 125, 247);
+    lighting-color:rgb(137, 125, 243);
     color-interpolation-filters: sRGB;
 	overflow-y: scroll;
 	overflow-x: hidden;
