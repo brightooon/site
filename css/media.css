@@ -3,7 +3,9 @@ body{
 	font-weight: 400;
 	font-size: 18px;
     background: #000;
-    color:#6359f5;
+    lighting-color:#948df7;
+    color-interpolation-filters: sRGB;
+
 	overflow-y: scroll;
 	overflow-x: hidden;
     right:100;
@@ -38,9 +40,12 @@ h2:after{
 .tm-content {
     z-index: 1001;
 }
+p{
+    color:black;
+}
 .footer-link {
     margin: 20px;
-	font-size: 18px;
+	font-size: 15px;
     position: absolute;
     bottom: 0;
     left: 0;
