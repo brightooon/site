@@ -3,7 +3,7 @@ body{
 	font-weight: 400;
 	font-size: 18px;
     background: #000;
-    lighting-color:gold;
+    lighting-color:rgb(137, 125, 247);
     color-interpolation-filters: sRGB;
 	overflow-y: scroll;
 	overflow-x: hidden;
@@ -29,7 +29,9 @@ h2:after{
     left:100px;
     top:50%
 }
-
+p{
+    color:black;
+}
 
 #cb-slideshow-text-container {
     height: 100vh;
@@ -39,11 +41,8 @@ h2:after{
 .tm-content {
     z-index: 1001;
 }
-p{
-    color:black;
-}
 .footer-link {
-    margin: 10px;
+    margin: 20px;
 	font-size: 10px;
     position: absolute;
     bottom: 0;
