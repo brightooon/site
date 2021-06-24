@@ -38,6 +38,17 @@ h2:after{
 .tm-content {
     z-index: 1001;
 }
+.footer-link {
+    margin: 20px;
+	font-size: 18px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: white;
+    text-align:center;
+    width:100%;
+    z-index: 1001;
+}
 
 .cb-slideshow,
 .cb-slideshow:after {
