@@ -107,24 +107,24 @@ h2:after{
 	    opacity: 0;
 	    animation-timing-function: ease-in;
 	}
-	8% {
+	5% {
 	    opacity: 1;
 	    transform: scale(1.10);
 	    animation-timing-function: ease-out;
 	}
-	17% {
+	10% {
 	    opacity: 1;
 	    transform: scale(1.15);
 	}
-	25% {
+	15% {
 	    opacity: 1;
 	    transform: scale(1.20);
 	}
-    32% {
+    20% {
         opacity: 0;
         transform: scale(1.25);
     }
-    40%{
+    25%{
         opacity: 0;
         transfrom: scale(1.35);
     }
