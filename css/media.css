@@ -62,11 +62,11 @@ h2:after{
     opacity:0;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-    -webkit-animation: imageAnimation 50s linear infinite 0s;
-    -o-animation: imageAnimation 50s linear infinite 0s;
-    -moz-animation: imageAnimation 50s linear infinite 0s;
-    -ms-animation: imageAnimation 50s linear infinite 0s;
-    animation: imageAnimation 50s linear infinite 0s;
+    -webkit-animation: imageAnimation 40s linear infinite 0s;
+    -o-animation: imageAnimation 40s linear infinite 0s;
+    -moz-animation: imageAnimation 40s linear infinite 0s;
+    -ms-animation: imageAnimation 40s linear infinite 0s;
+    animation: imageAnimation 40s linear infinite 0s;
 }
 
 .cb-slideshow li:nth-child(1) { 
@@ -74,27 +74,27 @@ h2:after{
 }
 .cb-slideshow li:nth-child(2) { 
     background-image: url(../image/IMG_3208.jpg);
-    -webkit-animation-delay: 10s;
-    -o-animation-delay: 10s;
-    -moz-animation-delay: 10s;
-    -ms-animation-delay: 10s;
-    animation-delay: 10s; 
+    -webkit-animation-delay: 8s;
+    -o-animation-delay: 8s;
+    -moz-animation-delay: 8s;
+    -ms-animation-delay: 8s;
+    animation-delay: 8s; 
 }
 .cb-slideshow li:nth-child(3) { 
     background-image: url(../image/IMG_3209.jpg);
-    -webkit-animation-delay: 20s;
-    -o-animation-delay: 20s;
-    -moz-animation-delay: 20s;
-    -ms-animation-delay: 20s;
-    animation-delay: 20s; 
+    -webkit-animation-delay: 16s;
+    -o-animation-delay: 16s;
+    -moz-animation-delay: 16s;
+    -ms-animation-delay: 16s;
+    animation-delay: 16s; 
 }
 .cb-slideshow li:nth-child(4) { 
     background-image: url(../image/IMG_3207.jpg);
-    animation-delay: 30s; 
+    animation-delay: 24s; 
 }
 .cb-slideshow li:nth-child(5) { 
     background-image: url(../image/IMG_3211.jpg);
-    animation-delay: 40s; 
+    animation-delay: 32s; 
 }
 
 @keyframes imageAnimation { 
