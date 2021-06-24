@@ -75,7 +75,7 @@ h2:after{
 }
 
 .cb-slideshow li:nth-child(1) { 
-    background-image: url(../image/IMG_3207.jpg);
+    background-image: url(../image/IMG_3212.jpg);
 }
 .cb-slideshow li:nth-child(2) { 
     background-image: url(../image/IMG_3208.jpg);
@@ -94,7 +94,7 @@ h2:after{
     animation-delay: 24s; 
 }
 .cb-slideshow li:nth-child(4) { 
-    background-image: url(../image/IMG_3212.jpg);
+    background-image: url(../image/IMG_3207.jpg);
     animation-delay: 36s; 
 }
 .cb-slideshow li:nth-child(5) { 
