@@ -27,7 +27,25 @@ p{
     text-align:right;
     width:100%;
 }
-
+.back{
+    display: grid;
+    margin: 0px;
+	font-size: 15px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: white;
+    text-align:left;
+    width:100%;
+}
+.link{
+    color:whitesmoke;
+    text-decoration: none; 
+}
+.link:hover{
+    color:violet;
+    transition: all 0.1s ease-out;
+}
 .cb-slideshow,
 .cb-slideshow:after {
     position:fixed;
