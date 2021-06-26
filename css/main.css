@@ -1,25 +1,53 @@
 body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background: #000;
-	overflow-y: scroll;
+	font-weight: 400;
+	font-size: 18px;
+    color:white;
+    color-interpolation-filters: sRGB;
+    background-image: url("../image/donut.gif");
+	background-repeat: no-repeat;
+	background-size: auto;
+	background-color: black;
+	background-position: center;
+	height: 700px ;
+    overflow-y: scroll;
 	overflow-x: hidden;
 }
-
+h1 {
+    color: yellow;
+    font-size: 2rem;
+}
+h2 {
+    overflow:hidden;
+    position:relative;
+    color: white;
+    
+}
+h2:after{
+    content:"";
+    display: block;
+    height:2px;
+    width:75%;
+    background: white;
+    position: absolute;
+    left:100px;
+    top:50%
+}
 p{
     color:white;
-}
-
-#cb-slideshow-text-container {
-    height: 100vh;
-    display: flex;
-    align-items: center;
 }
 .tm-content {
     z-index: 1001;
 }
+#cb-slideshow-text-container {
+    height: 100vh;
+    display: flex;
+    align-items:center;
+}
+
 .footer-link {
-    margin: 0px;
-	font-size: 13px;
+    margin: 10px;
+	font-size: 10px;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -28,6 +56,7 @@ p{
     width:100%;
 }
 
+/*
 .cb-slideshow,
 .cb-slideshow:after {
     position:fixed;
@@ -131,3 +160,4 @@ p{
 		margin-top: 20px;
 	}
 }
+
