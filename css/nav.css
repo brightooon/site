@@ -69,6 +69,7 @@
     }
     
     .nav-link{
+        margin-left: 2cm;
         color: whitesmoke;
         text-align: center;
         line-height:20px;
