@@ -20,7 +20,7 @@ body{
     z-index:0;
     color: transparent;
     background-repeat: no-repeat;
-    background-size: auto;
+
     background-position: center;
 	height: 700px ;
     opacity:0;
@@ -34,6 +34,7 @@ body{
 }
 .oneb li:nth-child(1){
     background-image: url("../image/donut.gif");
+    background-size:12.5cm;
 }
 .oneb li:nth-child(2) { 
     background-color: black;
