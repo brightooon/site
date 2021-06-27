@@ -33,16 +33,24 @@ body{
     animation: imageAnimation 25s linear infinite 0s;
 }
 .oneb li:nth-child(1){
+    background-color: black;
+}
+.oneb li:nth-child(2){
     background-image: url("../image/donut.gif");
     background-size:12.5cm;
+    -webkit-animation-delay: 2s;
+    -o-animation-delay: 2s;
+    -moz-animation-delay: 2s;
+    -ms-animation-delay: 2s;
+    animation-delay: 2s; 
 }
-.oneb li:nth-child(2) { 
+.oneb li:nth-child(3) { 
     background-color: black;
-    -webkit-animation-delay: 15s;
-    -o-animation-delay: 15s;
-    -moz-animation-delay: 15s;
-    -ms-animation-delay: 15s;
-    animation-delay: 15s; 
+    -webkit-animation-delay: 17s;
+    -o-animation-delay: 17s;
+    -moz-animation-delay: 17s;
+    -ms-animation-delay: 17s;
+    animation-delay: 17s; 
 }
 .oneb,
 .oneb:after {
